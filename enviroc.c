@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     FILE* git_ignore;
     
     char flag;
-    char main_code[90] = "#include <stdio.h>\n#include <stdlib.h>\nint main(int argc, char* argv) {\n\treturn 0;\n}";
+    char main_code[90] = "#include <stdio.h>\n#include <stdlib.h>\nint main(int argc, char** argv) {\n\treturn 0;\n}";
     char compile_command[] = {'\0'};
 
     while ((flag = getopt(argc, argv, "cr:h")) != -1)
