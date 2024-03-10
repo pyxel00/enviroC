@@ -15,5 +15,5 @@
 
 ### Usage
 - Use the -h flag to show the help page
-- -c flag takes in a file name with the extension and puts it into a src folder. Initializes a git repository if git is installed.
-- -r flag runs the file specified. Uses GCC.
+- -c Creates src folder and puts a main.c in it. Initializes a git repo if git is installed.
+- -r flag runs the file specified. Requires path of the file .Uses GCC.
